@@ -1,4 +1,4 @@
-# .NET Softplan Challnge
+# Desafio Softplan
 
 ## Atenção
 * Garanta que tenha o [docker](https://www.docker.com/) instalado. 
