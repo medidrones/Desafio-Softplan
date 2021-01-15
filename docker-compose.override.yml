@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  medina.api1.softplan:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8001:80"
+
+  medina.api2.softplan:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8002:80"

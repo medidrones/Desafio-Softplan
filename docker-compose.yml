@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  medina.api1.softplan:
+    image: ${DOCKER_REGISTRY-}medinaapi1softplan
+    build:
+      context: .
+      dockerfile: src/Api1/Medina.Api1.Softplan/Dockerfile
+
+  medina.api2.softplan:
+    image: ${DOCKER_REGISTRY-}medinaapi2softplan
+    build:
+      context: .
+      dockerfile: src/Api2/Medina.Api2.Softplan/Dockerfile

@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.Softplan.Application.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.Softplan.Integration.Test", "src\Api2\Medina.Api2.Softplan.Integration.Test\Api2.Softplan.Integration.Test.csproj", "{FF508131-E654-4562-AB7C-20364D33A51D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -176,6 +178,10 @@ Global
 		{FF508131-E654-4562-AB7C-20364D33A51D}.Release|x64.Build.0 = Release|Any CPU
 		{FF508131-E654-4562-AB7C-20364D33A51D}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF508131-E654-4562-AB7C-20364D33A51D}.Release|x86.Build.0 = Release|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCFBAE4-BA9F-4486-9141-4A7E510CBB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{057F2500-0706-413D-B8CA-C2272B40458B} = {5D897956-0FEB-4670-B8CA-547158F8FA6F}
